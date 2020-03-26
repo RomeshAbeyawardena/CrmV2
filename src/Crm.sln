@@ -1,17 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crm.Contracts", "Crm.Contracts\Crm.Contracts.csproj", "{13A9E5CA-C625-47DD-A27D-DF3C01CEC9FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crm.Contracts", "Crm.Contracts\Crm.Contracts.csproj", "{13A9E5CA-C625-47DD-A27D-DF3C01CEC9FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crm.Services", "Crm.Services\Crm.Services.csproj", "{04F12203-547B-4E86-8651-7B95EA30867D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crm.Services", "Crm.Services\Crm.Services.csproj", "{04F12203-547B-4E86-8651-7B95EA30867D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crm.UnitTests", "Crm.UnitTests\Crm.UnitTests.csproj", "{95A245C0-B47A-41EB-8366-582AD58E301F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crm.UnitTests", "Crm.UnitTests\Crm.UnitTests.csproj", "{95A245C0-B47A-41EB-8366-582AD58E301F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crm.Shared", "Crm.Shared\Crm.Shared.csproj", "{268A30C5-5272-4EF7-905F-B866995A25FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crm.Shared", "Crm.Shared\Crm.Shared.csproj", "{268A30C5-5272-4EF7-905F-B866995A25FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crm.WebApi", "Crm.WebApi\Crm.WebApi.csproj", "{406E466C-A414-4EB6-B6F9-A7FF8E15EA20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crm.WebApi", "Crm.WebApi\Crm.WebApi.csproj", "{406E466C-A414-4EB6-B6F9-A7FF8E15EA20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80AFB137-38F5-4758-A449-789631807086}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Users\romes\Documents\SQL Server Management Studio\Crm1.sql = ..\..\..\..\Users\romes\Documents\SQL Server Management Studio\Crm1.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crm.Domains", "Crm.Domains\Crm.Domains.csproj", "{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +28,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{13A9E5CA-C625-47DD-A27D-DF3C01CEC9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -86,5 +90,23 @@ Global
 		{406E466C-A414-4EB6-B6F9-A7FF8E15EA20}.Release|x64.Build.0 = Release|Any CPU
 		{406E466C-A414-4EB6-B6F9-A7FF8E15EA20}.Release|x86.ActiveCfg = Release|Any CPU
 		{406E466C-A414-4EB6-B6F9-A7FF8E15EA20}.Release|x86.Build.0 = Release|Any CPU
+		{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}.Debug|x64.Build.0 = Debug|Any CPU
+		{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}.Debug|x86.Build.0 = Debug|Any CPU
+		{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}.Release|x64.ActiveCfg = Release|Any CPU
+		{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}.Release|x64.Build.0 = Release|Any CPU
+		{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}.Release|x86.ActiveCfg = Release|Any CPU
+		{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7687931-2C72-467D-88BB-C0CEAA4A7226}
 	EndGlobalSection
 EndGlobal
