@@ -1,4 +1,6 @@
-﻿using Crm.Domains.ViewModels;
+﻿using AutoMapper;
+using Crm.Domains.Request;
+using Crm.Domains.ViewModels;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -11,17 +13,24 @@ namespace Crm.WebApi.Controllers
 {
     public class CustomerController : Controller
     {
-        private IMediator mediator;
+        private readonly IMediator mediator;
+        private readonly IMapper mapper;
 
-        public CustomerController(IMediator mediator)
+        public CustomerController(IMediator mediator, IMapper mapper)
         {
             this.mediator = mediator;
+            this.mapper = mapper;
         }
 
         public async Task<IActionResult> CreateCustomer(CreateCustomerViewModel customerViewModel)
         {
-            
-            return Ok();
+            var request = mapper.Map<CreateCustomer>(customerViewModel);
+            var response = await mediator.Send(request);
+
+            if(response.IsSuccess)
+                return Ok(response.Result);
+
+            return BadRequest(response.Errors);
         }
     }
 }

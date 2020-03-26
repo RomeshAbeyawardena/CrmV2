@@ -1,14 +1,13 @@
 ﻿using Crm.Domains.Contracts;
-using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Crm.Domains.Request
+namespace Crm.Domains.Dto
 {
-    public class CreateCustomer : IRequest<Response.CreateCustomer>, ICustomer
+    public class Customer : ICustomer
     {
         public int Id { get; set; }
 
