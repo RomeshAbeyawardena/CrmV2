@@ -16,9 +16,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80AFB137-38F5-4758-A449-789631807086}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\..\Users\romes\Documents\SQL Server Management Studio\Crm1.sql = ..\..\..\..\Users\romes\Documents\SQL Server Management Studio\Crm1.sql
+		GlobalSupressions.cs = GlobalSupressions.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crm.Domains", "Crm.Domains\Crm.Domains.csproj", "{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crm.Domains", "Crm.Domains\Crm.Domains.csproj", "{F0FDCFA3-44DF-48F0-9AC4-875587EFC995}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -12,7 +12,7 @@ namespace Crm.UnitTests
         [SetUp]
         public void SetUp()
         {
-            sut = new CustomerController();
+            //sut = new CustomerController();
         }
 
         [OneTimeSetUp]
